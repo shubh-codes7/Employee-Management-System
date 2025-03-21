@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3%;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    width: 350px;
+}
+
+#addBtn{
+    margin-top: 30px;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+.inputs{
+    display: flex;
+    gap: 11%;
+    color: white;
+}
+
+#msg{
+    margin: 15px 0px;
+    font-size: 21px;
+    color: red;
+    display: none;
+}
+
+h3{
+    margin: 15px 0px;
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+#data{
+    display: flex;
+    width: 30%;
+    padding: 20px 30px;
+    font-size: 18px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.dltBtn{
+    height: 90%;
+    padding: 13px 35px;
+    border-radius: 25px;
+}
